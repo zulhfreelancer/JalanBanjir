@@ -63,4 +63,7 @@ Other than app development, I do graphic & web design too. And, I'm the founder 
 Changelog
 ---------
 
+v1.0.1 (04/01/2015)
+- Added [Phonegap Facebook Plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) to track mobile install of Facebook Ads
+
 Reserved for next updates log.
