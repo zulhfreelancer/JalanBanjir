@@ -12,7 +12,7 @@ I got the idea to develop this app when I got stucked in KL for 2 days because L
 
 That led me to do in depth search to find more information about alternative routes from KL - Kuantan. I found [this page](http://bencanaalam.jkr.gov.my/content.php?ida=&type=STAT&page=status) and [this page](http://mybanjir.com/). MyBanjir team was doing a great web app and they created *Flooded Roads* section in that website. They also created a scraper bot to fetch all data from JKR website.
 
-So, I grabbed the MyBanjir scraper bot node URLs and started doing my first bootstrap app (naked & skeleton HTMLs) just to test some functionalities & data manipulations. Finally, I grabbed jQuery Mobile as the UI framework (I'm using [Ratchet](http://goratchet.com/) at the early phase, but got stuck at some problems) and binded all the tested codes inside it.
+So, I grabbed the MyBanjir scraper bot node URLs and started doing my first bootstrap app (naked & skeleton HTMLs) just to test some functionalities & data manipulations. Finally, I grabbed jQuery Mobile as the UI framework (I was using [Ratchet](http://goratchet.com/) during the early phase, but got stuck at some problems) and binded all the tested codes inside it.
 
 That's how this app got created.
 
@@ -27,7 +27,7 @@ KL - Seremban - Kuala Pilah - Muadzam - Gambang - Kuantan (that's 7 hours of lon
 Thank You For Sharing
 ---------------------
 
-I'd like to say thank you to those who helped me spreading words about this simple app. I'm sure many people and flood volunteer team get benefits from this app.
+I'd like to say thank you to those who helped me spreading words about this simple app. I'm sure many people and flood volunteer teams get benefits from this app.
 
 Leave A Review, Maybe?
 ----------------------
