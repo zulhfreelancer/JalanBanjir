@@ -64,6 +64,6 @@ Changelog
 ---------
 
 v1.0.1 (04/01/2015)
-- Added [Phonegap Facebook Plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) to track mobile install of Facebook Ads
+- Added [Phonegap Facebook Plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) to track mobile installs from Facebook Ads
 
 Reserved for next updates log.
