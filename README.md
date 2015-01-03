@@ -27,7 +27,7 @@ KL - Seremban - Kuala Pilah - Muadzam - Gambang - Kuantan (that's 7 hours of lon
 Thank You For Sharing
 ---------------------
 
-I'd like to say thank you to those who helped me spreading words about simple app. I'm sure many people and flood volunteer team get benefits from this app.
+I'd like to say thank you to those who helped me spreading words about this simple app. I'm sure many people and flood volunteer team get benefits from this app.
 
 Leave A Review, Maybe?
 ----------------------
