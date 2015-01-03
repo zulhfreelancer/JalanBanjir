@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Page template
+    </title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <script src="js/jquery-2.1.3.min.js">
+  </script>
+  <script src="js/jquery.mobile-1.4.5.min.js">
+  </script>
+    
+    <style type="text/css">
+    .wrap {
+        white-space: normal !important;
+    }
+    
+    </style>
+</head>
+
+<body>
+
+    <div data-role="page">
+
+        <div data-role="header">
+            <a href="index.html" data-icon="carat-l" class="ui-btn-left" data-transition="slide" data-direction="reverse">
+          Back
+        </a>
+        <a data-icon="refresh" class="ui-btn-right" onclick="myFunction();">
+          Refresh
+        </a>
+            <h1>
+          Selangor
+        </h1>
+        </div>
+        <!-- /header -->
+
+        <div role="main" class="ui-content">
+          
+            <ul data-role="listview" data-inset="true" id="result">
+
+                <li id="loading">Loading data...</li>
+
+            </ul>
+            
+
+        </div>
+        <!-- /content -->
+
+    </div>
+    <!-- /page -->
+
+    <script type="text/javascript">
+    var state_code = '10';
+    var the_url = "http://node.globalresearch.my/mybanjir/ws.BencanaJKR.php?function=getBencanaJKR&output=json&state_code=" + state_code;
+
+    var xmlhttp = new XMLHttpRequest();
+    var url = the_url;
+
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            myFunction(xmlhttp.responseText);
+        }
+    }
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+
+    function myFunction(response) {
+    //alert('fetching data');
+        
+
+        var arr = JSON.parse(response);
+        var i;
+        var out='';
+
+        var data_length = arr.length;
+        if (data_length !== 0) {
+
+            for (i = 0; i < data_length; i++) {
+                out += "<li class='wrap'><strong>"+arr[i].road+"</strong><br/><br/>"+arr[i].status+"<br/><br/>"+arr[i].notes+"</li>";
+
+                if (i !== (data_length - 1)) {
+                    // show divider
+                    out += "<li data-role='list-divider'></li>";
+                } else if (i == (data_length - 1)) {
+                    // hide divider
+                    out += "";
+                }
+                
+                
+            }
+
+        } else {
+            out += "<li>No data for this state</li>";
+        }
+
+        document.getElementById("result").innerHTML = out;
+        $('[data-role=listview]').listview('refresh');
+    }
+
+    </script>
+
+</body>
+</html>
