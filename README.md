@@ -62,16 +62,17 @@ Other than development, I do graphic & web design too. And, I'm the founder of B
 
 **My sites**:
 
-[Zulhilmi Zainudin Blog](http://zulhilmizainudin.com/blog/)
-[Zulhilmi Zainudin Live Blog](http://zulhilmizainudin.com/live/)
-[Prospek Digital](http://www.prospekdigital.com/)
-[Bina Blog Dot Com Sendiri](http://www.binablogdotcomsendiri.com/)
+ - [Zulhilmi Zainudin Blog](http://zulhilmizainudin.com/blog/)
+ - [Zulhilmi Zainudin Live Blog](http://zulhilmizainudin.com/live/)
+ - [Prospek Digital](http://www.prospekdigital.com/)
+ - [Bina Blog Dot Com Sendiri](http://www.binablogdotcomsendiri.com/)
 
 **Contact me**:
 
-Email: zulhfreelancer [at] gmail [dot] com
-FB: [fb.com/handyplast](http://fb.com/handyplast)
-Twitter: [twitter.com/zulhhandyplast](http://twitter.com/zulhhandyplast)
+ - Email: zulhfreelancer [at] gmail [dot] com
+ - FB: [fb.com/handyplast](http://fb.com/handyplast)
+ - Twitter: [twitter.com/zulhhandyplast](http://twitter.com/zulhhandyplast)
+
 
 Changelog
 ---------
